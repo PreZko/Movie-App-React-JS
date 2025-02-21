@@ -8,9 +8,12 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
+client/node_modules
+server/node_modules
 dist
+cleint/dist
+server/dist
 dist-ssr
-*.local
 
 # Editor directories and files
 .vscode/*
@@ -23,4 +26,11 @@ dist-ssr
 *.sln
 *.sw?
 
+# Local environment files
+*.local
+.env
 .env.local
+client/.env
+server/.env
+client/.env.local
+server/.env.local
